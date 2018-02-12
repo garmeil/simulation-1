@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
+.App {
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex-flow: column;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #ab2a19;
+  height: 100px;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 30px;
+  text-align: start;
+}
+
+header {
+  display: flex;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.Home {
+  background-color: #ab2a19;
+}
+.Shelf {
+  display: flex;
+  background-color: #d34735;
+  width: 77%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+.Shelved {
+  height: 100px;
+  text-align: start;
+  width: 20%;
+}
+.Home .Shelved {
+  width: 10%;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.PrimaryButton {
+  height: 60px;
+  width: 500px;
+  background: #d34735;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.Bin-Container {
+  margin-top: 20px;
+  float: right;
+  width: 80%;
+}
